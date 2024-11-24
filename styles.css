@@ -52,14 +52,14 @@ h3 {
 
 /* Inactive accordion header (collapsed) */
 .accordion-button.collapsed {
-  background-color: var(--dark-gray-blue); /* Dark gray-blue */
-  color: var(--light-cream); /* Light cream for text */
+  background-color: var(--light-cream); /* Dark gray-blue */
+  color: var(--dark-navy); /* Light cream for text */
   border: none;
 }
 
 /* Active accordion header (expanded) */
 .accordion-button:not(.collapsed) {
-  background-color: var(--soft-gray); /* Soft gray */
+  background-color: var(--light-cream); /* Soft gray */
   color: var(--dark-navy); /* Dark navy for contrast */
   border: none;
 }
@@ -73,3 +73,4 @@ h3 {
 .accordion-body {
   color: var(--light-cream); /* Light cream for text */
 }
+
