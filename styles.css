@@ -1,0 +1,75 @@
+:root {
+  --dark-navy: #161A30;
+  --dark-gray-blue: #31304D;
+  --soft-gray: #B6BBC4;
+  --light-cream: #F0ECE5;
+}
+
+/* Background Colors */
+.bg-dark-navy { background-color: var(--dark-navy) !important; }
+.bg-dark-gray-blue { background-color: var(--dark-gray-blue) !important; }
+
+/* Text Colors */
+.text-soft-gray { color: var(--soft-gray) !important; }
+.text-light-cream { color: var(--light-cream) !important; }
+
+/* Border Colors */
+.border-soft-gray { border-color: var(--soft-gray) !important; }
+
+/* Buttons */
+.btn-dark-navy {
+  background-color: var(--dark-navy);
+  color: var(--light-cream);
+  border: none;
+}
+.btn-dark-navy:hover {
+  background-color: var(--dark-gray-blue);
+  color: var(--light-cream);
+}
+
+
+.circular-crop {
+  width: 150px; /* Set the desired size */
+  height: 150px; /* Must match the width for a circle */
+  border-radius: 50%; /* Makes it circular */
+  overflow: hidden; /* Ensures the cropped part is hidden */
+  object-fit: cover; /* Makes the image fill the container proportionally */
+  display: inline-block; /* Ensures proper alignment */
+  border: 1px solid #B6BBC4;
+}
+
+.card-border {
+  border: 3px solid #B6BBC4;
+}
+
+h1 {
+  color: var(--light-cream)
+}
+
+h3 {
+  color: var(--light-cream);
+}
+
+/* Inactive accordion header (collapsed) */
+.accordion-button.collapsed {
+  background-color: var(--dark-gray-blue); /* Dark gray-blue */
+  color: var(--light-cream); /* Light cream for text */
+  border: none;
+}
+
+/* Active accordion header (expanded) */
+.accordion-button:not(.collapsed) {
+  background-color: var(--soft-gray); /* Soft gray */
+  color: var(--dark-navy); /* Dark navy for contrast */
+  border: none;
+}
+
+/* Accordion content (body) background */
+.accordion-collapse {
+  background-color: var(--dark-navy); /* Dark navy */
+}
+
+/* Accordion body text styling */
+.accordion-body {
+  color: var(--light-cream); /* Light cream for text */
+}
