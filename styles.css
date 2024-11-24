@@ -8,6 +8,7 @@
 /* Background Colors */
 .bg-dark-navy { background-color: var(--dark-navy) !important; }
 .bg-dark-gray-blue { background-color: var(--dark-gray-blue) !important; }
+.bg-light-cream {background-color: var(--light-cream) !important; }
 
 /* Text Colors */
 .text-soft-gray { color: var(--soft-gray) !important; }
@@ -48,6 +49,10 @@ h1 {
 
 h3 {
   color: var(--light-cream);
+}
+
+.project-h3 {
+  color: var(--dark-navy);
 }
 
 /* Inactive accordion header (collapsed) */
