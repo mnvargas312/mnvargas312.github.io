@@ -39,9 +39,21 @@
   border: 1px solid #B6BBC4;
 }
 
+/* Global card styling (applies to all cards unless overridden) */
+.card {
+  border: 1px solid #B6BBC4;
+}
+
+/* Optional additional styling for specific cards */
 .card-border {
   border: 3px solid #B6BBC4;
 }
+
+/* Remove borders for cards inside the accordion */
+.accordion .card {
+  border: none !important;
+}
+
 
 h1 {
   color: var(--light-cream)
@@ -71,11 +83,15 @@ h3 {
 
 /* Accordion content (body) background */
 .accordion-collapse {
-  background-color: var(--dark-navy); /* Dark navy */
+  background-color: white; /* Dark navy */
 }
 
 /* Accordion body text styling */
 .accordion-body {
   color: var(--light-cream); /* Light cream for text */
+}
+
+.accordion-body p {
+  color: #161A30 !important;
 }
 
