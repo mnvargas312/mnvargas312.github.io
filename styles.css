@@ -95,3 +95,10 @@ h3 {
   color: #161A30 !important;
 }
 
+.card-header {
+  height: 5rem; /* Adjust the value based on your design */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
